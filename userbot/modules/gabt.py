@@ -1,8 +1,6 @@
 from time import sleep
-from userbot import CMD_HELP, bot
+from userbot import CMD_HELP
 from userbot.events import register
-from telethon import events
-import asyncio
 
 
 @register(outgoing=True, pattern='^.ohayou(?: |$)(.*)')
@@ -26,7 +24,7 @@ async def typewriter(typew):
     await typew.edit("`Cuma mau bilang`")
     sleep(1)
     await typew.edit("`I LOVE YOU 💞`")
-    sleep(2) 
+    sleep(2)
     await typew.edit("`Jangan Tinggalin aku ya`")
 # @salama219
 
@@ -101,6 +99,7 @@ async def typewriter(typew):
     await typew.edit("`🥺😭🥺😭🥺😭🥺`")
 # Create by myself @localheart
 
+
 @register(outgoing=True, pattern='^.salam(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -118,6 +117,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Walaikumsalam😊`")
 # Create by myself @localheart
+
 
 @register(outgoing=True, pattern="^.pantun$")
 async def koc(e):
@@ -235,6 +235,7 @@ async def typewriter(typew):
     await typew.edit("`😓`")
 # Create by myself @localheart
 
+
 @register(outgoing=True, pattern='.melamar(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -255,6 +256,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`DILAN 1990`")
 # Create by myself @localheart
+
 
 @register(outgoing=True, pattern='.buaya(?: |$)(.*)')
 async def typewriter(typew):
@@ -299,6 +301,7 @@ async def typewriter(typew):
     await typew.edit("`Semoga engkau baik baik saja meski tak kumiliki.`")
 # Create by myself @localheart
 
+
 @register(outgoing=True, pattern='^.sadboy(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -341,7 +344,3 @@ CMD_HELP.update({
     \n\n`.yang`\
     \nUsage: iseng doang:v"
 })
-
-
-
-
