@@ -186,8 +186,8 @@ async def typewriter(typew):
     await typew.edit("gasukaa😫")
     sleep(1)
     await typew.edit("__GELAYY__🤮")
-    
-   
+
+
 @register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -196,7 +196,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("se**KONT0L** **K0NTOL** nya si **K0NTOL**")
     sleep(1)
-    await typew.edit("lebih **KONTOL** lagi")              
+    await typew.edit("lebih **KONTOL** lagi")
     sleep(1)
     await typew.edit("kalian **KONTOL**")
 
