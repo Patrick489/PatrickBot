@@ -50,7 +50,7 @@ pkg install wget;wget https://raw.githubusercontent.com/meareyou/lel_remake_User
 ## <p align="center">Deploy to Heroku Methods</p>
 
 
-<p align="center"><a href="https://github.com/Patrick489/PatrickBot/tree/main"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Patrick489/PatrickBot/tree/main"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
