@@ -44,8 +44,6 @@
 
 •Get On Telegram With Bot [KLIK HERE](https://t.me/stringxbot) 🔥
 
-•With Repl.it [KLIK HERE](https://repl.it/@ximfine/string#main.py) 🔥
-
 
 ## <p align="center">Deploy to Heroku Methods</p>
 
@@ -74,7 +72,3 @@
 
 ## License
 Licensed under [Raphielscape Public License](https://github.com/meareyou/lel_remake_UserBoto/blob/x-sql-extended/LICENSE) - Version 1.d, February 2020
-
-<p align="center"><a href="t.me/xbotgrup"> <img src="https://img.shields.io/badge/Telegram-blue?style=flat&logo=telegram" width="300" height="34.45" /></a></p>
-
-#Some modules are made here
