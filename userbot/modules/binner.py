@@ -194,6 +194,7 @@ async def _(event):
             await event.edit(asu.message)
             await event.client.delete_messages(conv.chat_id, [jemboed.id, asu.id])
 
+
 @register(outgoing=True, pattern=r"^\.iban(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
@@ -239,11 +240,3 @@ CMD_HELP.update({
 \n   Usage: IBAN Checker.\
 \n╰━━━━━━━━━━━━━━━━━━━╯"
 })
-
-
-
-
-
-
-
-
