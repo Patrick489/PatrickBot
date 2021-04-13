@@ -1,0 +1,51 @@
+========== DISCLAIMER ==========
+This file uploaded ONLY here,
+we logged only fact of error and date,
+we respect your privacy,
+you may not report this error if you've
+any confidential data here, no one will see your data
+================================
+
+--------BEGIN USERBOT TRACEBACK LOG--------
+
+Date: 2021-04-13 04:16:27
+Chat ID: -1001296934585
+Sender ID: 1312120115
+
+Event Trigger:
+.update
+
+Traceback info:
+Traceback (most recent call last):
+  File "/root/userbot/userbot/events.py", line 79, in wrapper
+    await func(check)
+  File "/root/userbot/userbot/modules/updater.py", line 210, in upstream
+    await event.edit(changelog_str)
+  File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 805, in edit
+    return await self._client.edit_message(
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1110, in edit_message
+    msg = self._get_response_message(request, await self(request), entity)
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+    result = await future
+telethon.errors.rpcerrorlist.MessageIdInvalidError: The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+
+
+Error text:
+The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+
+--------END USERBOT TRACEBACK LOG--------
+
+
+Last 10 commits:
+Patrick489: Add files via upload
+Patrick489: Delete nekobot.py
+Patrick489: Update nekobot.py
+Patrick489: Update heroku.py
+Patrick489: Update heroku.py
+Patrick489: Update gabut.py
+Patrick489: Update heroku.py
+Patrick489: Update gabt.py
+Patrick489: Update gabt.py
+Patrick489: Update animasi.py
