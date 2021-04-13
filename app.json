@@ -1,7 +1,7 @@
 {
   "name": "PatrickBot",
   "description": "A Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
-  "logo": "https://telegra.ph/file/fbc0df31dd055da634b33.jpg",
+  "logo": "https://telegra.ph/file/28c08cc867fdb4081bb3c.jpg",
   "keywords": [
     "telegram",
     "userbot",
