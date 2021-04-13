@@ -1,8 +1,8 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-import io
-from userbot import bot, CMD_HELP
+from userbot import bot
 from userbot.events import register
+
 
 @register(outgoing=True, pattern=r"^\.ustat")
 async def _(event):
