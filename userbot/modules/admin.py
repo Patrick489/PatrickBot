@@ -898,7 +898,7 @@ async def get_bots(show):
             show.chat_id,
             "botlist.txt",
             caption="Daftar Bot Di {}".format(title),
-            reply_to=show.id, 
+            reply_to=show.id,
         )
         remove("botlist.txt")
 
