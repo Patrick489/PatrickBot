@@ -100,9 +100,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/meareyou/lel_remake_UserBoto.git")
+    "https://github.com/Patrick489/PatrickBot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "x-sql-extended")
+    "UPSTREAM_REPO_BRANCH", "main")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -163,7 +163,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "NONE ---")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "PatrickBot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -400,7 +400,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded Modules: {}\n               \n🖥 **Main Menu** 🖥\n".format(
-                        "UserBoto ⟵(o_O) modules helper",
+                        "PatrickBot modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -408,13 +408,13 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "UserBoto ⟵(o_O) Helper",
+                    "PatrickBot",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "NONE ---",
+                    "PatrickBot",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
