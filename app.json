@@ -194,7 +194,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "well",
+      "value": "Jakarta",
       "required": false
     },
     "LOGSPAMMER": {
@@ -208,6 +208,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
+      "value": "https://github.com/Patrick489/PatrickBot",
       "required": false
     },
     "BOT_TOKEN": {
