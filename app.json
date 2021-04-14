@@ -150,7 +150,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "BLOCK + REPORT SPAM @WHOUAREUWHYTAGMELOL",
+      "value": "SPAM=BLOCK + REPORT",
       "required": false
     },
     "ALIVE_NAME": {
