@@ -42,6 +42,7 @@
     },
     "BOTLOG_CHATID": {
       "description": "ChatID of the Log group. Set it to '0' if BOTLOG = False and/or if LOGSPAMMER = False.",
+      "value": "Isi Id Grup lo",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -163,7 +164,7 @@
     },
     "G_BAN_LOGGER_GROUP": {
       "description": "Add all sudo bots in your group and type id of that group.",
-      "value": "log group please",
+      "value": "Id Grup lo",
       "required": true
     },
     "G_DRIVE_DATA": {
