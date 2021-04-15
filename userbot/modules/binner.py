@@ -29,7 +29,8 @@ async def _(event):
             return await event.reply("Unblock @Carol5_bot atau chat dulu")
         if asu.text.startswith("Wait for result..."):
             return await event.edit(f"Gagal generate {query}!")
-
+        else:
+            await event.edit(asu.message)
 
 @register(outgoing=True, pattern=r"^\.ss(?: |$)(.*)")
 async def _(event):
