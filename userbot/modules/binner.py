@@ -32,6 +32,7 @@ async def _(event):
         else:
             await event.edit(asu.message)
 
+
 @register(outgoing=True, pattern=r"^\.ss(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
