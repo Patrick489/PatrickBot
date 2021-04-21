@@ -383,7 +383,6 @@ with bot:
         me = bot.get_me()
         uid = me.id
 
-        
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
             builder = event.builder
