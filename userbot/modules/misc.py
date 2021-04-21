@@ -65,18 +65,18 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Shutdown *N0N3 ---*....`")
+    await event.edit("`Shutdown *PatrickBot*....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
-        await event.client.send_message(BOTLOG_CHATID, "N0N3 --- #SHUTDOWN \n"
+        await event.client.send_message(BOTLOG_CHATID, "PatrickBot #SHUTDOWN \n"
                                         "**Bot dimatikan**!!")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting N0N3 ---...`")
+    await event.edit("`Restarting PatrickNot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
