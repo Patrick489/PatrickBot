@@ -125,8 +125,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#NOTICE \n"
-            "🔔PatrickBot Berhasil DiUpdate")
-        await asyncio.sleep(10)
+            "🔔PatrickBot Berhasil DiUpdate")        
         await event.delete()
 
     # Spin a new instance of bot
