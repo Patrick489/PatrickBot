@@ -232,20 +232,13 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"\n**♻️𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚𝙙🇮🇩**\n"
-        f"╭━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"┣[•👤 USER     : {DEFAULTUSER}\n"
-        f"┣[•👁‍🗨 Username : @{user.username}\n"
-        f"┣▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"┣[•⚙️ Telethon : v {version.__version__} 🔥\n"
-        f"┣[•🐍 Python   : v {python_version()} 🔥\n"
-        f"┣[•💻 Base on  : {UPSTREAM_REPO_BRANCH}🔥\n"
-        f"┣[•🛠 Version  : {BOT_VER} 🔥\n"
-        f"┣[•🗃 Modules  : {len(modules)} Loaded 🔥\n"
-        f"┣[•🕒 Uptime   : {uptime} 🔥\n"
-        f"╰━━━━━━━━━━━━━━━━━━━━╯\n"
-        f" •MOD BY : {DEFAULTUSER}\n"
-        f" •REPO  : [𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩](https://github.com/Patrick489/PatrickBot)\n")
+        f"**♻️𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚𝙙🇮🇩** \n"
+        f"❃ Master: `{DEFAULTUSER}` \n"
+        f"❃ Telethon: `Versi {version.__version__}` \n"
+        f"❃ Python:  `Versi {python_version()}` \n"
+        f"❃ Bot Versi: `{BOT_VER}` \n"
+        f"❃ Plugins: `{len(modules)} Plugins` \n\n"
+        f"📍 REPO [PatrickBot](https://github.com/Patrick489/PatrickBot)\n")
 
     if ALIVE_LOGO:
         try:
