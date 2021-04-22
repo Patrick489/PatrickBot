@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nMemperbarui Pocong Userbot, Silahkan Tunggu Sebentar Ajg...`'
+                         '\nMemperbarui PatrickBot, Silahkan Tunggu...`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Berhasil Memperbarui!\n" "Memulai Ulang Bot, silahkan tunggu ya ajg...`")
+            await event.edit("`Berhasil Memperbarui!\n" "Memulai Ulang Bot, silahkan tunggu...`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#NOTE \n"
-                "Pocong Userbot Berhasil Di Update✓")
+                "PatrickBot Berhasil Di Update")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**Pocong Userbot** Berhasil Di Update✓')
+    await event.edit('**PatrickBot** Berhasil Di Update')
     await asyncio.sleep(1)
-    await event.edit('`Pocong Userbot Di Restart....`')
+    await event.edit('`PatrickBot Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Silahkan Tunggu Beberapa Detik..`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#NOTICE \n"
-            "Pocong Userbot Berhasil Di Update✓")
+            "PatrickBot Berhasil Di Update")
         await asyncio.sleep(10)
         await event.delete()
 
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n`🔥Pocong Userbot🔥\n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
+            f'\n`🔥PatrickBot🔥\n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**UPDATE Terbaru Untuk 🔥Pocong Userbot🔥 [{ac_br}]:\n\nPERUBAHAN:**\n`{changelog}`'
+        changelog_str = f'**UPDATE Terbaru Untuk 🔥PatrickBot🔥 [{ac_br}]:\n\nPERUBAHAN:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog is too big, view the file to see it.`")
             file = open("output.txt", "w+")
@@ -214,10 +214,10 @@ async def upstream(event):
         await event.edit(
             '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
-        await event.edit('`Proses Update Pocong Userbot, ....🛠️`')
-        await event.edit('`Proses Update Pocong Userbot, loading....🛠️`')
-        await event.edit('`Proses Update Pocong Userbot, updating....🛠️`')
-        await event.edit('`Proses Update Pocong Userbot\nSilahkan tunggu....🛠️`')
+        await event.edit('`Proses Update PatrickBot, ....🛠️`')
+        await event.edit('`Proses Update PatrickBot, loading....🛠️`')
+        await event.edit('`Proses Update PatrickBot, updating....🛠️`')
+        await event.edit('`Proses Update PatrickBot\nSilahkan tunggu....🛠️`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
