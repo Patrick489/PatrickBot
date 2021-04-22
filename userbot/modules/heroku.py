@@ -272,7 +272,7 @@ async def dyno_usage(dyno):
                 "**Dyno Usage**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
                 f"-> `Penggunaan Dyno `  **{app.name}**:\n"
                 f"    •0 jam - "
-                f"0 menit  -  0%**"
+                f"0 menit  -  0%"
                 "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
                 "-> `Sisa Dyno Bulan Ini`:\n"
                 f"    •1000 jam - 0 menit  "
