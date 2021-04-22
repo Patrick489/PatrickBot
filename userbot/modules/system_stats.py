@@ -232,13 +232,13 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**♻️𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚𝙙🇮🇩** \n"
+        f"**🔔𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚𝙙🇮🇩** \n"
         f"❃ Master: `{DEFAULTUSER}` \n"
         f"❃ Telethon: `Versi {version.__version__}` \n"
         f"❃ Python:  `Versi {python_version()}` \n"
         f"❃ Bot Versi: `{BOT_VER}` \n"
         f"❃ Plugins: `{len(modules)} Plugins` \n\n"
-        f"📍 REPO [PatrickBot](https://github.com/Patrick489/PatrickBot)\n")
+        f"⚠️REPO [PatrickBot](https://github.com/Patrick489/PatrickBot)\n")
 
     if ALIVE_LOGO:
         try:
