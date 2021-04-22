@@ -245,7 +245,7 @@ async def amireallyalive(alive):
         f"┣[•🕒 Uptime   :`{uptime}🔥`\n"
         f"╰━━━━━━━━━━━━━━━━━━━━━╯\n"
         f" •MOD BY : `{DEFAULTUSER}`")
-    f" •REPO  : [𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩](https://github.com/Patrick489/ParrickBot)"
+    f" •REPO  : [𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩](https://github.com/Patrick489/PatrickBot)"
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
