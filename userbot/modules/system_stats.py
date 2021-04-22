@@ -20,7 +20,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, bot
 from userbot.events import register
 
 
@@ -229,8 +229,8 @@ async def pipcheck(pip):
 
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
-    user = await bot.get_me()
-    uptime = await get_readable_time((time.time() - StartTime))
+    await bot.get_me()
+    await get_readable_time((time.time() - StartTime))
     output = (
         f"**♻️𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚𝙙🇮🇩** \n"
         f"❃ Master: `{DEFAULTUSER}` \n"
