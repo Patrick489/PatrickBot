@@ -264,10 +264,9 @@ async def dyno_usage(dyno):
                     break
             else:
                 AppQuotaUsed = 0
-                AppPercentage = 0
 
-            AppHours = math.floor(AppQuotaUsed / 60)
-            AppMinutes = math.floor(AppQuotaUsed % 60)
+            math.floor(AppQuotaUsed / 60)
+            math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
                 "**Dyno Usage**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
