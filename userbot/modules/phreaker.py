@@ -6,10 +6,8 @@
 # Created By @ximfine
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-import asyncio
 from userbot import bot, CMD_HELP
 from userbot.events import register
-
 
 
 @register(outgoing=True, pattern=r"^\.nmap(?: |$)(.*)")
