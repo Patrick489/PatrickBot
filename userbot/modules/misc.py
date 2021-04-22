@@ -76,12 +76,12 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting PatrickNot...`")
+    await event.edit("`Restarting PatrickBot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n"
-                                        "**Restarting Bot**")
+                                        "**Restarting PatrickBot**")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "🤖Repo:[PatrickBot](https://github.com/Patrick489/PatrickBot)"
+        "📍Repo [𝙋𝙖𝙩𝙧𝙞𝙘𝙠𝘽𝙤𝙩](https://github.com/Patrick489/PatrickBot)"
     )
 
 
