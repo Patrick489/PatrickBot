@@ -25,7 +25,7 @@ async def help(event):
             await event.delete()
     else:
         await event.edit(f"**╭━━━━━━━━━━━━━━━━━━━━━╮**\
-            \n│   Help for N0N3 --- USERBOT ---\
+            \n│   𝗛𝗲𝗹𝗽 𝗙𝗼𝗿 𝗣𝗮𝘁𝗿𝗶𝗰𝗸𝗕𝗼𝘁\
             \n╰━━━━━━━━━━━━━━━━━━━━━╯ \
             \n╭━━━━━━━━━━━━━━━━━━━━━╮\
             \n│   Informasi lebih jelas tentang modules\
@@ -37,7 +37,6 @@ async def help(event):
             string += "`" + str(i)
             string += "`\t• "
         await event.reply(f"•{string}•"
-                          "\n╾─────────────────────╼\
-                          \n   __MOD BY__ : NONE ----")
+                          "\n╾─────────────────────╼\")
         await asyncio.sleep(100)
         await event.delete()
