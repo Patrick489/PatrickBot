@@ -1,7 +1,7 @@
 # Yang Baca Masuk Neraka
 # Port By @Pocongonlen
 # Eh Masuk Surga Maksudnya Mweheheh
-# Pocong - Userbot 
+# Pocong - Userbot
 
 
 from telethon.errors import ChatSendInlineForbiddenError, ChatSendStickersForbiddenError
